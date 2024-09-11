@@ -3,10 +3,10 @@
 $senderName="Verificational Agency";
 
 // enter sender email
-$senderMail="ranaparamanik351@gmail.com";
+$senderMail="";
 
 // enter sender email's password
-$senderPass="drsi esfa tzgg lgvy";
+$senderPass="";
 
 // enter massege for verify email
     // name of receiver for email verification
