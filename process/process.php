@@ -60,8 +60,7 @@ if(isset($_REQUEST['register'])){
             sleep(2);
             header("location:../login/login.php");
         }else{
-            echo "<script>alert('Not register! error: p1');</script>";
-            header("location:../login/signUp.php");
+            echo "Email surver is not configed";
         }
     }
 }else if(isset($_REQUEST['tasks'])){
