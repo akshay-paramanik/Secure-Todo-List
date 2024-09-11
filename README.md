@@ -81,6 +81,8 @@ http://localhost/todolist/index.php
 
 Additional Setup Notes:-
 
+*For sending emails, first you need to setting up your google account (2 step verification) and then create you app password in https://myaccount.google.com/apppasswords, here you can create your password. and then go to your gmail account's setting https://mail.google.com/mail/u/0/#settings/fwdandpop and enable IMAP access option*
+
 Ensure the mail server is configured properly in mailerScript.php email verification and Password Reset.
 
 Email Verification: The email verification process uses PHPMailer. Ensure you have correctly set up your SMTP server credentials in mailerScript.php.
